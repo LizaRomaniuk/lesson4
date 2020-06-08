@@ -1,0 +1,151 @@
+body {
+    background-image: url(../img/bg.jpg);
+    line-height: 1;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 6px 5px #333333;
+    height: 990px;
+}
+
+.header {
+    background-color: #ffffff;
+    padding: 8px 30px 0px 30px;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-contacts {
+    color: #5fa5bb;
+    font-style: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 18px;
+}
+
+.header-contacts > span:first-child {
+    font-weight: bold;
+}
+
+.header-contacts a {
+    color: #5fa5bb;
+    text-decoration: none;
+}
+
+div.header-contacts > span {
+    width: 200px;
+}
+
+.header-countries { 
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+
+ul.header-countries > li > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5fa5bb;
+}
+
+.header-countries li {
+   align-content: space-between;
+   width: 70px;
+}
+
+.baner {
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+.nav-menu {
+    background-color: #333333;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    border-top: 1px solid black; 
+    padding-left: 10px;
+    left: -10px;
+    box-shadow: 0px 5px 6px 5px #333333;
+}
+
+li.has-sub:hover ul.sub-menu {
+    display: block;
+}
+
+.has-sub li {
+    width: 150px;
+}
+
+.has-sub {
+    position: relative;
+}
+
+.sign1:after {
+    content: "▼";
+}
+
+.sign2:after {
+    content: "▼";
+}
+
+.sign3:after {
+    content: "▼";
+}
+
+div.main > div {
+    float: left;
+    height: 545px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 4px;
+}
+
+.main-info, .main-news {
+    width: 210px;
+    background-color: #edeef0;
+}
+
+.main-info a, .main-news a{
+    text-decoration: none;
+    color: #424c43;
+}
+
+.main-content {
+    width: 580px;
+    background-color: #ffffff;
+}
+
+.main h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer {
+    text-align: center;
+    line-height: 2;
+    color: #dee7ee;
+    font-size: 10px;
+}
